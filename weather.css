@@ -1,0 +1,13 @@
+body{
+    background-size:cover;
+    
+
+}
+.container{
+    background-color: rgba(29, 28, 28, 0.599);
+    align-items: center;
+    
+}
+#result{
+    background-color: rgba(0, 0, 0, 0.182);
+}

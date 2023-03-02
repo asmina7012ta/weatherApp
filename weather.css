@@ -4,10 +4,27 @@ body{
 
 }
 .container{
-    background-color: rgba(29, 28, 28, 0.599);
+    background-color: rgba(6, 45, 62, 0.599);
     align-items: center;
+    border-radius: 10px;
+   
     
 }
 #result{
-    background-color: rgba(0, 0, 0, 0.182);
+    background-color: transparent
 }
+#myVideo {
+    position: fixed;
+   
+  }
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
